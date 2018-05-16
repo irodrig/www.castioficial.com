@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.Seccion{
+	width: 100%;
+	overflow: hidden;
+}
+.ContenidoSeccion{
+	margin: auto;
+	width: 1200px;
+	overflow: hidden;
+	padding:5px 0px;
+	position:relative;
+}
+.ContenidoSeccion p, .ContenidoSeccion h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+.Seccion100{
+	margin: auto;
+	width: 1200px;
+	padding: 20px 0px;
+	overflow: hidden;
+}
+.Seccion50{
+	width: calc(50% - 20px);
+	padding: 10px;
+}
+.Seccion40{
+	width: calc(40% - 20px);
+	padding: 10px;
+}
+.Seccion25{
+	width: calc(25% - 20px);
+	padding: 10px;
+}
+.Seccion20{
+	width: calc(20% - 20px);
+	padding: 10px;
+}
+.Seccion75{
+	width: calc(70% - 20px);
+	padding: 10px;
+}
+.Seccion100 img {
+	width: 100%;
+}
+.Seccion1_3{
+	width:370px;
+	padding:0px 15px;
+}
+.Seccion2_3{
+	width:750px;
+	padding:0px 15px;
+}
+.Seccion1_4{
+	width:250px;
+	padding:0px 15px;
+}
+.Seccion2_4{
+	width: 550px;
+	padding: 0px 15px;
+}
+.Seccion3_4{
+	width: 850px;
+	padding: 0px 15px;
+}
+.Seccion1_5 {
+	width: 210px;
+	padding: 0px 15px;
+}
+.Seccion2_5{
+	width: 450px;
+	padding: 0px 15px;
+}
+.Seccion4_5 {
+	width: 930px;
+	padding: 0px 15px;
+}
+
+
+
+.FLeft{
+	float:left;
+}
+.FRight{
+	float:right;
+}
+.FCenter{
+	margin:auto;
+}
+.ARight{
+	text-align:right;
+}
+.ACenter{
+	text-align:center;
+}
+.Clear{
+	overflow:hidden;
+}
+.FRight{
+	float:right;
+}
+.FLeft{
+	float:left;
+}
+.Bold{
+	font-weight:bold;
+}
+
+
+
+@media screen and (max-width: 840px) {
+
+.ContenidoSeccion{
+	width: 100%;
+}
+.ContenidoSeccion p, .ContenidoSeccion h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+.Seccion100{
+	width: 100%;
+}
+.Seccion50{
+	width: calc(100% - 20px);
+}
+.Seccion1_3{
+	width:calc(100% - 30px);
+}
+.Seccion2_3{
+	width:calc(100% - 30px);
+}
+.Seccion1_4{
+	width:calc(100% - 30px);
+}
+.Seccion2_4{
+	width:calc(100% - 30px);
+}
+.Seccion3_4{
+	width:calc(100% - 30px);
+}
+.Seccion1_5 {
+	width:calc(100% - 30px);
+}
+.Seccion2_5{
+	width:calc(50% - 30px);
+}
+.Seccion4_5 {
+	width:calc(100% - 30px);
+}
+
+
+}

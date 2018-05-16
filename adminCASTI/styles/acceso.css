@@ -1,0 +1,110 @@
+@charset "utf-8";
+body {
+	font-family: "Calibri", Arial, sans-serif;
+	margin: 0;
+	background-color: #DDDDDD;
+	color: #EEE;
+}
+#LoginBox {
+	margin: auto;
+	width: 800px;
+	background-color: #222;
+	margin-top: 40px;
+	border-radius: 8px;
+	box-shadow: 15px 15px 40px 10px #AAAAAA;
+	padding: 20px;
+	overflow: hidden;
+	-webkit-box-shadow: 15px 15px 40px 10px #AAAAAA;
+}
+#Title {
+	color: #222222;
+	top: 34px;
+	position: relative;
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 3px 3px 1px #939393;
+}
+#Fields {
+	float:left;
+	width:450px;
+	padding:25px;
+	border-right:1px #333 solid;
+}
+.CampoAcceso{
+	overflow:hidden;
+	padding:10px;
+}
+.CampoAcceso p{
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align:right;
+	float:right;
+	width:100px;
+	top:-8px;
+	position:relative;
+}
+input, select {
+	font-family: "Calibri", Arial, sans-serif;
+	float:right;
+	height: 36px;
+	width: 232px;
+	font-size: 16px;
+	border:1px solid #000;
+	background-color:#D8DEEB;
+	margin-left:20px;
+	padding:6px;
+	border-radius:4px;
+}
+select {
+	height: 36px;
+	width: 232px;
+}
+input:hover, select:hover
+{
+	border:1px solid #4F69A4;
+	background-color:#BEC8DF;
+}
+
+#LoginButton {
+	background-color:#4F69A4;
+	float:right;
+	height: 36px;
+	width: 234px;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	padding:6px;
+	border-radius:4px;
+}
+#LoginButton:hover {
+	background-color:#575757;
+	color:#BEC8DF;
+}
+.error {
+	color: #FFF;
+	background-color: #C00;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	display: block;
+	padding: 10px;
+}
+h1 {
+	font-size: 24px;
+	font-weight:bold;
+	margin:0px;
+}
+#Aviso{
+	width:248px;
+	float:right;
+	padding:25px;
+}
+#Aviso a{
+	text-decoration:none;
+	color:#BEC8DF;
+}
+#Aviso a:hover{
+	color:#BBB;
+}
